@@ -1,0 +1,61 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #f9c08b; /* Bright yellow for the footer */
+    color: #2c3e50; /* Darker text for contrast */
+    padding: 20px 0;
+    opacity: 0.8;
+  }
+  
+  .footer p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 0.9rem;
+  }
+  
+  .footer .social-icons {
+    margin: 10px 0;
+  }
+  
+  .footer .social-icons a {
+    color: #2c3e50; /* Darker color for icons */
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #fff7d1; /* Light yellow on hover */
+  }
+  
+  .footer a {
+    color: #2c3e50;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #fff7d1; /* Light yellow for hover links */
+  }
+  
+.footer p {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffcc00; /* Gold color on hover */
+}
+
+.footer-locations {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer-locations li {
+    margin: 5px 0;
+}

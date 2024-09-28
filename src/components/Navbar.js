@@ -38,7 +38,6 @@ const Navbar = () => {
           <li className="list-inline-item"><a href="/">Home</a></li>
           <li className="list-inline-item"><a href="/menu">Menu</a></li>
           <li className="list-inline-item"><a href="/service">Services</a></li>
-          <li className="list-inline-item"><a href="/review">Review</a></li>
           <li className="list-inline-item"><a href="/about">About</a></li>
           <li className="list-inline-item"><a href="/contact">Contact</a></li>         
         </ul>

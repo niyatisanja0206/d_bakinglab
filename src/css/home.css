@@ -26,18 +26,18 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Center the text */
-    color: #331505; /* Change text color to white for better visibility */
+    color: #492a1a; /* Change text color to white for better visibility */
     text-align: center;
     opacity: 1; /* Set to 1 for full visibility */
     z-index: 1; /* Ensure it's above the hero image */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better contrast */
+    text-shadow: 2px 2px 4px rgba(84, 70, 70, 0.7); /* Add a shadow for better contrast */
 }
 
 /* Button Styles */
 .cta-button {
     padding: 10px 20px; /* Button padding */
     font-size: 18px; /* Increase font size */
-    color: #210303; /* Text color */
+    color: #2b0404; /* Text color */
     background-color: #f39c12; /* Button background color */
     border: none; /* Remove border */
     border-radius: 5px; /* Rounded corners */
@@ -90,7 +90,7 @@ h2 {
     margin-bottom: 5px;
     color: #3f2804;
     opacity: 1;
-    background-color: #edb3b3;
+    background-color: #f0d0bd;
 }
 
 .section-card:hover {
@@ -121,7 +121,7 @@ h2 {
 /* Change text color on hover */
 .text-content:hover {
     color: #d68910; /* Hide original color */
-    -webkit-text-fill-color: #e5583c; /* Text color transparent */
+    -webkit-text-fill-color: #e75437; /* Text color transparent */
 }
 
 .team {

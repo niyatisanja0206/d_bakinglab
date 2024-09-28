@@ -1,0 +1,173 @@
+/* src/components/Home.css */
+.home {
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/bg.jpg');
+    background-attachment: fixed;
+}
+
+.hero-header {
+    position: relative;
+    height: 400px; /* Reduced height of hero image */
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover; /* Ensure the image covers the container */
+    opacity: 1; /* Slightly reduce opacity for overlay effect */
+    transition: opacity 0.5s ease; /* Smooth transition for hover effect */
+}
+
+.hero-text {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+    color: #492a1a; /* Change text color to white for better visibility */
+    text-align: center;
+    opacity: 1; /* Set to 1 for full visibility */
+    z-index: 1; /* Ensure it's above the hero image */
+    text-shadow: 2px 2px 4px rgba(84, 70, 70, 0.7); /* Add a shadow for better contrast */
+}
+
+/* Button Styles */
+.cta-button {
+    padding: 10px 20px; /* Button padding */
+    font-size: 18px; /* Increase font size */
+    color: #2b0404; /* Text color */
+    background-color: #f39c12; /* Button background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.cta-button:hover {
+    background-color: #d68910; /* Darker background on hover */
+    color: #fff; /* Keep text color */
+}
+
+.cta-button:active {
+    background-color: #c57e0d; /* Even darker background on click */
+    color: #fff; /* Keep text color */
+}
+
+.sections {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    opacity: 1;
+    animation: slideUp 0.5s forwards;
+    margin-bottom: 10px;
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.section-card {
+    border: 1px solid #ddd; /* Card border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Animation on hover */
+    display: flex;
+    align-items: left;
+    margin-bottom: 5px;
+    color: #3f2804;
+    opacity: 1;
+    background-color: #f0d0bd;
+}
+
+.section-card:hover {
+    transform: scale(1.02); /* Slightly enlarge card on hover */
+}
+
+.section-image {
+    width: 300px; /* Fixed size for images */
+    height: 300px; /* Fixed size for images */
+    border-radius: 8px 0 0 8px; /* Rounded corners on left side */
+}
+
+.text-content {
+    padding: 20px;
+    flex: 1; /* Take the remaining space */
+    font-family: 'Times New Roman', Times, serif; /* Set font family */
+}
+
+.text-content h2 {
+    margin-bottom: 20px;
+}
+
+.text-content p,
+.text-content ul {
+    margin: 0; /* Remove default margins */
+}
+
+/* Change text color on hover */
+.text-content:hover {
+    color: #d68910; /* Hide original color */
+    -webkit-text-fill-color: #e75437; /* Text color transparent */
+}
+
+.team {
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover; /* Cover the entire background */
+}
+
+.team-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Reduced space between cards */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.team-card {
+    background-color: #e2b7b7; /* Card background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s; /* Animation on hover */
+    width: calc(25% - 10px); /* Four cards in a row */
+    max-width: 250px; /* Max width for each card */
+    overflow: hidden;
+}
+
+.team-card:hover {
+    transform: translateY(-5px) scale(1.02); /* Lift effect with slight enlargement */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.team-image {
+    width: 100%; /* Full width for the image */
+    height: 350px; /* Set fixed height for consistency */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 10px 0 5px;
+}
+
+.card-content p {
+    color: #666; /* Lighter text color */
+}

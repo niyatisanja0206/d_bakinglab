@@ -1,0 +1,42 @@
+{
+  "cakes": [
+    { "id": 1, "name": "Chocolate Truffle Cake", "description": "Rich chocolate layers with a silky truffle frosting.", "imageId": 1, "price": 259 },
+    { "id": 2, "name": "Vanilla Bean Cake", "description": "Classic vanilla cake with vanilla bean buttercream.", "imageId": 2, "price": 209 },
+    { "id": 3, "name": "Red Velvet Cake", "description": "Moist red velvet with cream cheese frosting.", "imageId": 3, "price": 225 },
+    { "id": 4, "name": "Lemon Drizzle Cake", "description": "Refreshing lemon cake with a sweet glaze.", "imageId": 4, "price": 180 },
+    { "id": 5, "name": "Black Forest Cake", "description": "Chocolate sponge cake with cherries and whipped cream.", "imageId": 5, "price": 240 },
+    { "id": 6, "name": "Carrot Cake", "description": "Spiced carrot cake with a cream cheese frosting.", "imageId": 6, "price": 215 },
+    { "id": 7, "name": "Strawberry Shortcake", "description": "Light and fluffy cake with fresh strawberries.", "imageId": 7, "price": 235 },
+    { "id": 8, "name": "Coffee Walnut Cake", "description": "Rich coffee-flavored cake with walnut pieces.", "imageId": 8, "price": 199 }
+  ],
+  "pastries": [
+    { "id": 9, "name": "Croissant", "description": "Flaky, buttery croissant perfect for breakfast.", "imageId": 9, "price": 35 },
+    { "id": 10, "name": "Pain au Chocolat", "description": "Flaky pastry filled with rich chocolate.", "imageId": 10, "price": 39 },
+    { "id": 11, "name": "Cinnamon Roll", "description": "Sweet cinnamon roll topped with cream cheese icing.", "imageId": 11, "price": 42 },
+    { "id": 12, "name": "Apple Turnover", "description": "Pastry filled with spiced apple compote.", "imageId": 12, "price": 37 },
+    { "id": 13, "name": "Éclair", "description": "Choux pastry filled with vanilla cream and topped with chocolate.", "imageId": 13, "price": 45 },
+    { "id": 14, "name": "Strudel", "description": "Flaky pastry with spiced apple filling.", "imageId": 14, "price": 40 },
+    { "id": 15, "name": "Chocolate Muffin", "description": "Soft muffin with gooey chocolate chunks.", "imageId": 15, "price": 30 },
+    { "id": 16, "name": "Raspberry Danish", "description": "Pastry filled with raspberry jam and cream cheese.", "imageId": 16, "price": 42 }
+  ],
+  "bread": [
+    { "id": 17, "name": "Sourdough Bread", "description": "Classic sourdough with a tangy flavor.", "imageId": 17, "price": 55 },
+    { "id": 18, "name": "Baguette", "description": "Crispy French baguette with a soft interior.", "imageId": 18, "price": 30 },
+    { "id": 19, "name": "Whole Wheat Bread", "description": "Healthy whole wheat bread perfect for sandwiches.", "imageId": 19, "price": 47 },
+    { "id": 20, "name": "Focaccia", "description": "Italian bread with rosemary and olive oil.", "imageId": 20, "price": 60 },
+    { "id": 21, "name": "Ciabatta", "description": "Rustic Italian bread with a crisp crust.", "imageId": 21, "price": 50 },
+    { "id": 22, "name": "Brioche", "description": "Soft, sweet bread enriched with butter and eggs.", "imageId": 22, "price": 55 },
+    { "id": 23, "name": "Garlic Bread", "description": "Sliced bread with garlic butter, perfect as a side.", "imageId": 23, "price": 40 },
+    { "id": 24, "name": "Pita Bread", "description": "Soft, pocketed flatbread ideal for wraps.", "imageId": 24, "price": 35 }
+  ],
+  "desserts": [
+    { "id": 25, "name": "Chocolate Brownie", "description": "Fudgy brownie with a rich chocolate flavor.", "imageId": 25, "price": 37 },
+    { "id": 26, "name": "Cheesecake", "description": "Classic cheesecake with a graham cracker crust.", "imageId": 26, "price": 65 },
+    { "id": 27, "name": "Tiramisu", "description": "Layered dessert with coffee-soaked ladyfingers and mascarpone.", "imageId": 27, "price": 70 },
+    { "id": 28, "name": "Panna Cotta", "description": "Creamy Italian dessert served with berry compote.", "imageId": 28, "price": 60 },
+    { "id": 29, "name": "Fruit Tart", "description": "Tart filled with custard and topped with fresh fruits.", "imageId": 29, "price": 55 },
+    { "id": 30, "name": "Macarons", "description": "French almond meringue cookies with various fillings.", "imageId": 30, "price": 45 },
+    { "id": 31, "name": "Crème Brûlée", "description": "Custard topped with a crispy caramelized sugar layer.", "imageId": 31, "price": 75 },
+    { "id": 32, "name": "Chocolate Mousse", "description": "Light and airy chocolate mousse with whipped cream.", "imageId": 32, "price": 55 }
+  ]
+}

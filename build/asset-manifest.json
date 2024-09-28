@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d67e619.css",
-    "main.js": "/static/js/main.9d6afc98.js",
+    "main.css": "/static/css/main.c1bb2eab.css",
+    "main.js": "/static/js/main.e15ba02d.js",
     "static/js/453.e05a6b37.chunk.js": "/static/js/453.e05a6b37.chunk.js",
     "static/media/Loader.gif": "/static/media/Loader.2b501dbe1e82352b6755.gif",
     "static/media/2.jpg": "/static/media/2.4a0e7dd1e899cb32678f.jpg",
     "static/media/24.jpg": "/static/media/24.6dc26b407f3f0e6b99c1.jpg",
     "static/media/17.jpg": "/static/media/17.e41d371a3746edf072e4.jpg",
     "static/media/Baked-Goods.jpg": "/static/media/Baked-Goods.e250ae7e0a788d55410d.jpg",
+    "static/media/bg.jpg": "/static/media/bg.1627a4ab66b85345814c.jpg",
     "static/media/18.jpg": "/static/media/18.e9be6fb8762dbda626e4.jpg",
     "static/media/30.jpg": "/static/media/30.1778a980ad146e56ee5d.jpg",
     "static/media/1.jpg": "/static/media/1.9800106416281c3c3a8a.jpg",
@@ -47,12 +48,12 @@
     "static/media/team-2.jpg": "/static/media/team-2.867702ecab43bac44931.jpg",
     "static/media/Whyus.jpg": "/static/media/Whyus.c7a42552c5eae64cb5e4.jpg",
     "index.html": "/index.html",
-    "main.0d67e619.css.map": "/static/css/main.0d67e619.css.map",
-    "main.9d6afc98.js.map": "/static/js/main.9d6afc98.js.map",
+    "main.c1bb2eab.css.map": "/static/css/main.c1bb2eab.css.map",
+    "main.e15ba02d.js.map": "/static/js/main.e15ba02d.js.map",
     "453.e05a6b37.chunk.js.map": "/static/js/453.e05a6b37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d67e619.css",
-    "static/js/main.9d6afc98.js"
+    "static/css/main.c1bb2eab.css",
+    "static/js/main.e15ba02d.js"
   ]
 }

@@ -1,0 +1,28 @@
+[
+    {
+        "category": "CupCakes",
+        "items": [
+            { "name": "Chocolate Cake", "price": 500 },
+            { "name": "Vanilla Cake", "price": 400 },
+            { "name": "Red Velvet Cake", "price": 600 },
+            { "name": "Strawberry Cake", "price": 550 },
+            { "name": "Carrot Cake", "price": 450 },
+            { "name": "Cheesecake", "price": 700 },
+            { "name": "Fruit Cake", "price": 800 },
+            { "name": "Pineapple Cake", "price": 480 }
+        ]
+    },
+    {
+        "category": "Cookies",
+        "items": [
+            { "name": "Chocolate Chip Cookies", "price": 150 },
+            { "name": "Oatmeal Cookies", "price": 130 },
+            { "name": "Peanut Butter Cookies", "price": 140 },
+            { "name": "Sugar Cookies", "price": 120 },
+            { "name": "Snickerdoodles", "price": 160 },
+            { "name": "Ginger Cookies", "price": 170 },
+            { "name": "Macarons", "price": 300 },
+            { "name": "Almond Cookies", "price": 180 }
+        ]
+    }
+]

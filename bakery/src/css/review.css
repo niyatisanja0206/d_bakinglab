@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* You can change this to your preferred font */
+    background-image: url('../assets/bg.jpg');
+    background-attachment: fixed;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Start from the top */
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    background-color: #fff; /* Background color for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Allows scrolling if the content overflows */
+}
+
+.review-form {
+    width: 100%; /* Make the form take the full width */
+    max-width: 600px; /* Optional: Maximum width for larger screens */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+.submit-button {
+    background-color: #72b4fb; /* Your theme color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width for the button */
+}
+
+.submit-button:hover {
+    background-color: #5aa3e0; /* Darker shade on hover */
+}
+
+.reviews-list {
+    width: 100%; /* Full width for the reviews list */
+    max-width: 600px; /* Optional: Maximum width for larger screens */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between review cards */
+}
+
+.review-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-image {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Ensure the page is responsive */
+@media (max-width: 768px) {
+    .review-container {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .review-card {
+        padding: 10px; /* Adjust padding for review cards */
+    }
+}

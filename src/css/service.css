@@ -1,7 +1,8 @@
 .service-container {
     padding: 20px;
-    background-color: #f9f9f9; /* Light background for contrast */
+    background-color: #ca9a9a; /* Light background for contrast */
     border-radius: 8px;
+    opacity: 0,7;
     max-width: 800px; /* Wider container */
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -11,8 +12,9 @@
 
 .form-container {
     padding: 20px;
-    background-color: #fff; /* White background for forms */
+    background-color: #f0d3bc; /* White background for forms */
     border-radius: 8px;
+    opacity: 1;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px; /* Space between forms */
 }

@@ -1,0 +1,87 @@
+/* Basic styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f5bd7a; /* Default yellow theme */
+  position: fixed; /* Make the navbar fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+/* Scrolled navbar style */
+.navbar-scrolled {
+  opacity: 0.7; /* Lower the opacity when scrolled */
+}
+
+.navbar-logo h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+  color: #000; /* Black-like text */
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-family: 'Pacifico', cursive; /* Apply Pacifico font to nav tabs */
+}
+
+.nav-links a:hover {
+  color: #ff6347; /* Hover color */
+}
+
+/* Mobile menu icon */
+.mobile-menu-icon {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .nav-links ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #ffd700;
+    width: 100%;
+    display: none;
+    padding: 1rem;
+  }
+
+  .nav-links.nav-active ul {
+    display: block;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    color: #000;
+  }
+
+  .navbar-logo {
+    flex: 1;
+  }
+}
+
+/* Add padding to the body to prevent content from being hidden behind the navbar */
+body {
+  padding-top: 4rem; /* Adjust based on your navbar height */
+}
