@@ -1,0 +1,40 @@
+/* src/components/Loader.css */
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fef9c3; /* Light yellow background */
+  }
+  
+  .loader-gif {
+    width: 100px; /* Adjust the size of the GIF to be smaller */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .loading-bar {
+    width: 10%; /* Adjust the width of the loading bar */
+    height: 5px; /* Make the loading bar smaller */
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    margin-top: 10px; /* Reduce margin */
+    overflow: hidden;
+  }
+  
+  .loading-progress {
+    width: 0;
+    height: 100%;
+    background-color: #ffdd57; /* Bright yellow progress bar */
+    animation: loading 2s infinite;
+  }
+  
+  @keyframes loading {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  

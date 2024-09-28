@@ -1,0 +1,68 @@
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.contact-container h1 {
+    text-align: center;
+    color: #ffcc00; /* Gold color for headings */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    background-color: #ffcc00; /* Gold color for the button */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #e6b800; /* Darker gold on hover */
+}
+
+.locations {
+    margin-top: 20px;
+}
+
+.locations h2 {
+    color: #333;
+}
+
+.locations ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.locations li {
+    margin: 10px 0;
+}
