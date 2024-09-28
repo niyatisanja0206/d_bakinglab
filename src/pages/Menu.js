@@ -145,7 +145,7 @@ const Menu = () => {
             <img src={item.image} alt={item.name} />
             <h3 className="menu-item-name">{item.name}</h3>
             <p className="menu-item-description">{item.description}</p>
-            <p className="menu-item-price">${item.price.toFixed(2)}</p>
+            <p className="menu-item-price">Rs.{item.price.toFixed(2)}</p>
             <button className="order-button" onClick={() => handleOrderClick(item)}>
               Order Now
             </button>

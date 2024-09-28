@@ -1,4 +1,8 @@
 /* Shipped button styling */
+.body{
+    background-image: url('../assets/bg.jpg');
+    background-attachment: fixed;
+}
 .shipped-button {
     padding: 0.5rem 1.5rem;
     background-color: #f39c12; /* Background color */

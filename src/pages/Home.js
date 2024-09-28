@@ -1,4 +1,3 @@
-// src/components/Home.js
 import React from 'react';
 import '../css/home.css'; // Ensure this CSS file is updated
 import heroimg from '../assets/Baked-Goods.jpg';
